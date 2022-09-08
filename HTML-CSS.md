@@ -7,7 +7,7 @@ Ett element är byggsten med en ettiket som visar vad den har för syfte i struk
 
 Till exempel: i en början = <>, informationen imellan och ett slut = </> 
 
-Till exempel: <h1>Heading</h1>
+## Till exempel: <h1>Heading</h1>
 
 
  strukturen är följande
@@ -25,7 +25,7 @@ Till exempel: <h1>Heading</h1>
 
 
 
-
+##
 
 
  
