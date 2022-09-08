@@ -1,3 +1,3 @@
 # u00-teorihandboken-skojarduva-main
 
-Just notes in school!
+This is my handbook for learning fullstack dev web including explaintions in swedish about diffrent knowkledge.
