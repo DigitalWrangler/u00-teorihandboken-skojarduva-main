@@ -1,5 +1,5 @@
 # Teorihandboken - Avancerad JavaScript (AJ)
-Studerande: Förnamn Efternamn
+Studerande: Vincent Wigardt
 
 ## AJ 1.1 Node.js
 Beskriv rubriken här
