@@ -23,6 +23,9 @@ Till exempel: i en början = <>, informationen imellan och ett slut = </>
 </body>
 </html>
 
+href gör så att man kan lägga till bilder
+
+link är för länkar
 
 
 ##
