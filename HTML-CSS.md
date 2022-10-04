@@ -2,19 +2,20 @@
 Studerande: Vincent Wigardt
 
 # HTML
-HTML står för Hyper Text Markup Language och är standard byggblocken för att bygga sidor på webben, HTML beskriver textens struktur där strukturen går från uppifrån och ner av en serie av element
+<!--HTML står för Hyper Text Markup Language och är standard byggblocken för att bygga sidor på webben, HTML beskriver textens struktur där strukturen går från uppifrån och ner av en serie av element
 Ett element är byggsten med en ettiket som visar vad den har för syfte i strukturen och deklareras med en början, ett innehåll och ett slut. 
 
 Till exempel: i en början = <>, informationen imellan och ett slut = </> 
 
-## Till exempel: <h1>Heading</h1>
+Till exempel: <h1>Heading</h1>-->
 
+<h1>Struktur</h1>
 
- strukturen är följande
+ <p>Här är en typisk basstruktur i HTML</p>
 
-<html>
-<head>
-<title>Page Title</title>
+<!--<html>
+<head>  <--- Head är där man lägger till all information om HTML documentet som: "Page title" nedanför. versionen av h
+<title>Page Title</title> <
 </head>
 <body>
 <h1>This is a heading</h1>
@@ -23,12 +24,18 @@ Till exempel: i en början = <>, informationen imellan och ett slut = </>
 </body>
 </html>
 
-href gör så att man kan lägga till bilder
+href gör så att man kan lägga till bilder-->
 
-link är för länkar
+<h1>ELEMENT</h1>
+
+P element
+
+em
+
+<p>Typer av ele</p>
 
 
-##
+<h1>ATTRIBUTER</h1>
 
 
  
