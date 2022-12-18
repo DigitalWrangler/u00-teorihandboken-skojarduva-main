@@ -2,7 +2,7 @@
 Studerande: Vincent Wigardt
 
 ## BE 1.1 PHP
-Beskriv rubriken här
+PHP är en typ av serverbaserat språk
 
 ## BE 1.2 OOP i PHP
 Beskriv rubriken här
