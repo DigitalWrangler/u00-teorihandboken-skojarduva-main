@@ -41,12 +41,12 @@ Från PHP5 can du nu skriva PHP kod i en objekt orienterad stil! så vad är OOP
 
 Så i detta exmpelet kommer jag deklarera en klass i som då kallas för "Transformers" och i den klassen kommer jag inkludera properties som då $name och methoder som funktionen set_name som lägger namnet på variablen och en return funktion som visar resultatet!
 
-<img src="./img/PHP.BASIC5.png">
+
 
 Och detta gör att Starscream och Megatron kommer ut i text! i detta exemplet har vi deklarerat namn till dessa transformers i nästa exempel tänkte jag att vi ska deklarara megatrons faction och det gör genom att göra en function som heter set_faction och deklarar vilken då i detta fallet Decepticons 
 
 
-<img src="./img/PHP.BASIC6.png">
+
 
 I detta exmpelet får vi ut Megatrons namn som är då Megatron och faction då Decepticons och med denna method "OOP" gör det mycket snabbare och lättare att nesta objekt och då använda dom hur man vill efter!
 
