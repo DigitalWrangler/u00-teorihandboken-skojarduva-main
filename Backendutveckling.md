@@ -90,17 +90,17 @@ Och det skapar en modell som heter Turtles.php som ser ut så här som ligger i 
 
 När jag skapade modellen med php artisan make:model Turtles --migration, eftersom att jag använde kommandot --migration så generade den även en migrations fil i migration mappen med namnet [timestamp]_create_turtles_table.php som skapar en turtles tabell i databasen med ID och timestamps! som vi ser på bilden nedanför.
 
-<img src="./img/PHP.MVC2.png"
+<img src="./img/PHP.BASIC2.png"
 
 Om du vill migrera fler tabeller till databasen tar du dig hjälp av Schema:: funktionen där du kan definera data typerna som tabellerna ska ta emot. Som i detta exempel.
 
-<img src="./img/PHP.MVC3.png"
+<img src="./img/PHP.BASIC3.png"
 
 Efter detta steg skriver man php artisan migrate för att migrera dom nya tabellerna till databasen.
 
 Och för att skapa en controller till den nya Modellen skriver man bara php artisan make:controller TurtlesController och det kommer skapa en Controller som kommer finnas i Http/Controllers/TurtlesControllers.php som kommer att ge denna fil.
 
-<img src="./img/PHP.MVC4.png"
+<img src="./img/php.mvc4.png"
 
 Därav definerar man rotues genom att lägga till Route::resource och vad man vill ha och vilken Controller den ska till och sedan definerar man Routsen i View som finns i resource mappen.
 
@@ -205,7 +205,7 @@ cURL står för client URL det är ett kommandoverktyg som har ett biblotek som 
 
 I Laravel används cURL-bibloteket som HTTP-klient som därav kan göra requests till externa resurser som då till ett API. Laravel har ett API med cURL som används is HTTP-facades och andra hjälpmedlen, eftersom att cURL följer med i installationen av PHP. Med kommandonen vi lärde oss i den föregående spalten HTTP så kan vi skriva dom direkt i Laravel och få resultatet. Det kan se ut såhär
 
-<img src="/img/APIGET.png">
+<img src="/img/getuser.png">
 
 Så i den här bilden så görs en GET user request.
 
