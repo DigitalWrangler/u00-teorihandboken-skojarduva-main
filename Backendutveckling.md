@@ -167,7 +167,7 @@ I OAuth finns det vanligtvis tre olika parter då Användaren(resource owner), K
 
 I Laravel finns det inbyggda paket och funktioner som gör det lättare när man ska implentera OAuth i sin applikation. Ett av dom paketen heter Laravel Passport som ger till gång till OAuth servern till applikationen, man kan ladda ner det här paketet via composer. som man gör med kommandot i root mappen 'composer require laravel/passport' i terminalen.
 
-<img src="./img/OAUTH.png>
+<img src="/img/OAUTH.png>
 
 ## BE 1.9 HTTP-protokollet
 
