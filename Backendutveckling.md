@@ -12,26 +12,26 @@ För att skapa ett php script i coden kan man då skriva "<?php> "ens commando" 
 
 Syntaxen i PHP kan ser ut så här. 
 
-<img src="./img/PHP.BASICsyntax.png"
+<img src="./img/PHP.BASICsyntax.png">
 
 Som vi ser i bilden ovan kan vi se att det är en HTML struktur men längst ner i bodyn är ett PHP script integrerat och just detta commando echo som skapar då ett echo till webservern med texten "Hello World!"
 
 I nästa exempel kommer jag att visa hur man en variabel som är då red "red", i php skapar man en variabel med tecknet "$" som i mitt exempel nedanför kommer jag att deklarera denna variabel till en sak en sak som är viktigt med är att PHP är ett case sensitive språk så om man skriver i någon annan typ än den typen som är deklarerad som kommer det inte att fungera.
 
-<img src="./img/PHP.BASIC2.png"
+<img src="./img/PHP.BASIC2.png">
 
 I detta exemplet lämnar jag det sista ordet i slutet som en variabel i mitt echo som gör det sista ordet blir variablen, men för att jag inte hade samma casesensitivity så är bara "My car is red" som fungerar.
 
 Men det gäller ej commandon, i detta exemplet ska visa att man kan ge commandon oavsett val av stora eller små bokstäver i commandot.
 
 
-<img src="./img/PHP.BASIC3.png"
+<img src="./img/PHP.BASIC3.png">
 
 Koden kan köras utan några konstigheter!
 
 Nu i nästa exmepel ska vi gå igenom IF statments som är möjligt i PHP
 
-<img src="./img/PHP.BASIC4.png"
+<img src="./img/PHP.BASIC4.png">
 
 Så i detta exmpelet så kan man ge ett resultat baserat på vilken tid det är på servern. som då $t är deklarerat till date("H") och om klockan är mindre än 20 / åtta så kommer ett echo som säger "Have a good day!"
 
@@ -41,12 +41,12 @@ Från PHP5 can du nu skriva PHP kod i en objekt orienterad stil! så vad är OOP
 
 Så i detta exmpelet kommer jag deklarera en klass i som då kallas för "Transformers" och i den klassen kommer jag inkludera properties som då $name och methoder som funktionen set_name som lägger namnet på variablen och en return funktion som visar resultatet!
 
-<img src="./img/PHP.BASIC5.png"
+<img src="./img/PHP.BASIC5.png">
 
 Och detta gör att Starscream och Megatron kommer ut i text! i detta exemplet har vi deklarerat namn till dessa transformers i nästa exempel tänkte jag att vi ska deklarara megatrons faction och det gör genom att göra en function som heter set_faction och deklarar vilken då i detta fallet Decepticons 
 
 
-<img src="./img/PHP.BASIC6.png"
+<img src="./img/PHP.BASIC6.png">
 
 I detta exmpelet får vi ut Megatrons namn som är då Megatron och faction då Decepticons och med denna method "OOP" gör det mycket snabbare och lättare att nesta objekt och då använda dom hur man vill efter!
 
@@ -65,7 +65,7 @@ Om du inte använder Eloquent kan du använda databasautentisering använder Lar
 Glöm inte att göra en dom sträng i databasen för remember token som laravel genererar och lagrar som "remember me"
  som ska vara med vid migrationen för att komma ihåg användaren.
 
-<img src="./img/PHP.Sec.jpg"
+<img src="./img/PHP.Sec.jpg">
 
 Som det visar sig i bilden så har jag inkluderat en $table->rememberToken(); som är viktigt att ha vid migrationer.
 
@@ -86,21 +86,21 @@ För att skapa en modell i Laravel skriver man $ php artisan make:model Turtles 
 
 Och det skapar en modell som heter Turtles.php som ser ut så här som ligger i Models mappen.
 
-<img src="./img/PHP.MVC1.png"
+<img src="./img/PHP.MVC1.png">
 
 När jag skapade modellen med php artisan make:model Turtles --migration, eftersom att jag använde kommandot --migration så generade den även en migrations fil i migration mappen med namnet [timestamp]_create_turtles_table.php som skapar en turtles tabell i databasen med ID och timestamps! som vi ser på bilden nedanför.
 
-<img src="./img/PHP.BASIC2.png"
+<img src="./img/PHP.BASIC2.png">
 
 Om du vill migrera fler tabeller till databasen tar du dig hjälp av Schema:: funktionen där du kan definera data typerna som tabellerna ska ta emot. Som i detta exempel.
 
-<img src="./img/PHP.BASIC3.png"
+<img src="./img/PHP.BASIC3.png">
 
 Efter detta steg skriver man php artisan migrate för att migrera dom nya tabellerna till databasen.
 
 Och för att skapa en controller till den nya Modellen skriver man bara php artisan make:controller TurtlesController och det kommer skapa en Controller som kommer finnas i Http/Controllers/TurtlesControllers.php som kommer att ge denna fil.
 
-<img src="./img/php.mvc4.png"
+<img src="./img/php.mvc4.png">
 
 Därav definerar man rotues genom att lägga till Route::resource och vad man vill ha och vilken Controller den ska till och sedan definerar man Routsen i View som finns i resource mappen.
 
@@ -131,7 +131,7 @@ Men det finns begränsningar när det gäller flexibilitet och skalbarhet efters
 
 Man kan se denna databasstruktur i till exempel webbshoppar som är uppdelat i många kategorier med över och underordnader.
 
-<img src="./img/HKDB.png"
+<img src="./img/HKDB.png">
 
 Bilden ovan visar ett bra exempel på en Heirkisk datorstruktur!
 
@@ -153,7 +153,7 @@ ER-modellering "EntitetsRelations-modellering" används som en grafisk design f�
 Man börjar med att ta reda på vilka entiteter man ska ha i sitt ER-Diagram där efter ger man dom deras attributer och sedan relationerna till varandra.
 i bilden nedan visar hur en relations databas kan se ut.
 
-<img src="./img/ERdiagram.png"
+<img src="./img/ERdiagram.png">
 
 Entiteterna är Rektanglarna, Attributerna är ovalerna och Relationerna är Rutorna mellan Entiteterna.
 
