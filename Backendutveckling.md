@@ -4,17 +4,17 @@ Studerande: Vincent Wigardt
 ## BE 1.1 PHP
 
 PHP är en typ av serverbaserat språk som är uppfanns av Rasmus Lerdorf 1992, med motivet att se vem vilka som tittade på hans cv under den tiden.
-Eftersom att PHP är ett serverbaserat språk så måste man ha en server för att syntaxen ska fungera, därav kan man använda sig av en lokal server som då Docker som har tillgång till att skapa vilken typ av lokal server som helst eller XAMP, LAMP, LEMP osv.
+Eftersom att PHP är ett serverbaserat språk så måste man ha en koppling till en server för att syntaxen ska fungera, den kan man använda sig av en webbserver eller lokal server som då Docker kan skapa vilken typ av lokal server som helst eller XAMP, LAMP, LEMP osv.
 
-Men för att en fil ska identifieras som PHP måste man deklarara den som en PHP fil och det gör man när man skapar filens namn. som te.x index.php eller firstpage.php
+Men för att en fil ska identifieras som PHP måste man deklarara den som en PHP fil och det gör man när man skapar filens namn. som te.x index.php eller firstpage.php osv
 
-För att skapa ett php script i coden kan man då skriva "<?php> "ens commando" ?>" och därav är sektionen från första taggen till den sista deklarerad som PhP och en annan funktion som detta språket har är att det kan skrivas i HTML0 och dess struktur som i exemplet nedanför.
+För att skapa ett php script i koden kan man då skriva "<?php> "ens commando" ?>" och därav är sektionen från första taggen till den sista deklarerad som PhP och en annan funktion som detta språket har är att det kan skrivas med HTML och dess struktur som i exemplet nedanför.
 
 Syntaxen i PHP kan ser ut så här. 
 
 <img src="./img/PHP.BASICsyntax.png">
 
-Som vi ser i bilden ovan kan vi se att det är en HTML struktur men längst ner i bodyn är ett PHP script integrerat och just detta commando echo som skapar då ett echo till webservern med texten "Hello World!"
+Som vi ser i bilden ovan kan vi se att det är en HTML struktur men längst ner i bodyn är ett PHP script integrerat och just kommandot echo skapar då ett echo till webservern och servern returnerar texten "Hello World!"
 
 I nästa exempel kommer jag att visa hur man en variabel som är då red "red", i php skapar man en variabel med tecknet "$" som i mitt exempel nedanför kommer jag att deklarera denna variabel till en sak en sak som är viktigt med är att PHP är ett case sensitive språk så om man skriver i någon annan typ än den typen som är deklarerad som kommer det inte att fungera.
 
