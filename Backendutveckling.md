@@ -225,10 +225,53 @@ curl -O file1.txt -O file2.pdf -O file3.zip
 Så sammanfattnings vis så är cURL något som används som HTTPklient man kan ladda upp och ner filer, och det stödjer många olika protokoll och stödjer många programmeringsspråk så som PHP, C/C++, Python och Java!
 
 ## BE 1.11 REST
-Beskriv rubriken här
 
+REST betyder "Representional State Transfer," där datan är uppdelat i olika resurser och dessa resurser kan vara tjänster, objekt eller data. och var resurs har sin egna unika URI (Uniform Resource Identifier) och varje resurs har sitt unika State/Tillstånd som tolkas med olika representationer som kan då vara JSON eller XML.
+
+REST har en viktig princip är att dom måste följa ett viss typ av standardiserade methoder för att få tillgång till resursen och en method kan vara HTTP methoden deras kommandon GET, POST osv för att kunna utföra operationer på resurserna. För att förtydliga REST är inte beroende av HTTP protokollets kommandon allt beror på vilken protokolls typ som RESTen är skrivet i. 
+
+Stateless betyder att servern inte lagrar inte klientens status som betyder att varje request/förfrågan måste innehålla endast nödvändig infomation för att förstå och sedan prossesa förfrågan.
+
+Client-Server Architektur betyder att klienten och severen är separata entiteter som kommnicerar med varandra genom nätet, där klienten gör förfrågningar till servern och sedan processar servern var förfrågan och sedan returnerna ett svar till klienten.
+
+Uniform Interface gör att APIn följer en uniform interface vilket betyder att vilka methoder för varje operation som kommer att fungera.
+
+Så för att identifera uniformen i REST:APIen måste du följa då ett par olika aspekter för att få fram den. Resurs identiferar för varje resurs i din API måste ha ett sätt att identiferas igenom en URL och där av ger URL:en är slutpunkt/endpoint var resursen, och där av kan man bestämma sig vad man vill göra med resursen genom vilka methoder som resursen kan förstå. för att kart lägga methoderna i den specifika URLen måste du identifera hur klienten kommunicerar med resurserna. För att se om protokollet är HTTP baserad så kan man kolla status koden.
 ## BE 1.12 XML och andra dataformat
-Beskriv rubriken här
+
+XML som då betyder Xtensible Markup Language är ett vanligt dataformat som representerar data i en form som både människor och maskiner kan läsa. XML är en data typ som har stängnings taggar där varje tag representar ett element och elementen har attribter som kan ha text ekller andra invirade element här är ett exmpel på ett XML dokument.
+
+<img src="/img/xml.exempel.png">
+
+Så i detta XML exemplet visar att all information om John Doe som visar att han är först en person som sedan identiferas med sitt namn, sin ålder och sedan sin adress. men huvud klassen i denna resurs är person klassen.
+
+
+
+Ett annat typ av dataformat kan vara JSON (JavaScript Object Notation) och JSON är då baserat på Javascript objectiv syntax som representeras datans nykelvärden i arrayer och det kan se ut så här i ett JSON objekt.
+
+
+<img src="/img/json.format.png">
+
+Och som vi ser är formatet väldigt likt varandra. Nästan alla språk kan förstå JSON.
+
+Nästa värde som vi ska gå igenom heter CSV(Comma-Separated Values): CSV skrivs i vanligt format men använder sig av tabell data i sin representation och varje CSV fil representerar klasserna och sedan objekten med dom på nästa rad och det kan se ut så här!
+
+<img src="/img/CSV.values.png">
+
+CSV används ofta för import/export och data utbetyden mellan olika typer av system. CSV kan användas av nästan alla programmeringsspråk som har sina biblotekt eller en inbydd funktion för att läsa formatet.
+
+Nästa format är YAML som står för YAML Ain´t MARKUP Language och används i komplex tata struktur med listor och nästade objekten och använda för att konfigerara filer eller data komunikation. och ett sådant format kan se ut så här:
+
+<img src="/img/YML.format.png">
+
+
 
 ## BE 1.13 Webbservrar
-Beskriv rubriken här
+
+En webbserver är en appliktation som hanterar HTTP (Hypertext Transfer Protocol) förfrågningar och leverar webb innehåll till klienter runt om hela världen och agerar som märgben för världswebben och gör utbyttet av information mellan servern och klienten. En primär funktion är att ta emot inkommande förfrågningar från klienten och sedan returnena i resurserna till klienten. Webbservrar finns i två olika kategorier där en av dom kallas för traditionell webserver/applikationsserver som kan vara A pache HTTP server eller Nginx som har fokus främst på att ge statiska filer och hanterar grundläggande HTTP-requests och det ger bra skalbarhet och är optimerat för att leverera stistiskt innehåll effektivt.
+
+Den andra typen är applikationsservrar som JBoss, Tomcat eller MIIS (Microsoft IIS) designat för applikation eller skript som är på serversidan som ger mer funktionallitet som stödjs för att köra dynmaiska applikationer på webben med språk som Java, .NET eller PHP. En applikationsserver har oftast funktioner för sessionhantering, lastbalansering, databasanslutning med mer.
+
+Webbservrar har en stor roll för att säkerställa säkerheten för applikationer på webben som som kan ge åtkomstkontroll för auktoriserade användare och hantera kryptering med hjälp at SSL/TLS-protokollen för att ge säkra anslutningar och även så webbservrar integreras med funktioner som inbottskydd, brandväggar och andra säkerhetsåtgärder för att skyyta mot attacker eller preventera dom.
+
+Webbservrar är en viktig del av internetinfrastrukturen som gör leverans av webbinnehåll och applikationer till klienten/användaren genom att hantera förfrågningar, handskas med data eller säkerställa säkerhet samt ge skalbarhet som gör dom grundläggande del av vårat webbwekosystem ute på nätet!
