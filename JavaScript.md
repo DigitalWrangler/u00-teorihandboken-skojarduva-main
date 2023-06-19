@@ -146,3 +146,5 @@ Websockets är en ett typ av protokoll som HTTP men använder en teknik för då
 I JavaScript använder man WebSockets genom ett API som finns inbyggt i våran webbläsare då APIet ger methoder för att utföra operationer för att skapa, skicka, ta emot eller att avsluta genom en Websocket anslutning. Vilket betyder att WebSocket är användbart i applikationer som kräver realtidsuppdateringar, som då spel, chattsidor eller finanssystem. Apiet för WebSockets när den är ansluteten onopen är när anslutningen är öppen och onmessage är när när man har fått ett medelande och onclose är när uppkopplingen stängs och onerror är vid fel. sen finns det methoder som då send() för att skicka data till servern och close() för att stänga anslutningen till servern.
 
 Som vi ser har WebSiockets många användsmöjligheter för applikationer som behöver nutid kommunikation som spel, chatsidor eller något dylikt som kräver realtidskommunikation.
+
+<img src= "/img/websocket.png">
