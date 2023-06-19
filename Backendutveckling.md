@@ -235,7 +235,7 @@ REST betyder "Representional State Transfer," där datan är uppdelat i olika re
 
 REST har en viktig princip är att dom måste följa ett viss typ av standardiserade methoder för att få tillgång till resursen och en method kan vara HTTP methoden deras kommandon GET, POST osv för att kunna utföra operationer på resurserna. För att förtydliga REST är inte beroende av HTTP protokollets kommandon allt beror på vilken protokolls typ som RESTen är skrivet i. 
 
-Stateless betyder att servern inte lagrar inte klientens status som betyder att varje request/förfrågan måste innehålla endast nödvändig infomation för att förstå och sedan prossesa förfrågan.
+Stateless betyder att servern inte lagrar inte klientens status som betyder att varje request/förfrågan måste innehålla endast nödvändig infomation för att förstå och sedan förfrågan vill.
 
 Client-Server Architektur betyder att klienten och severen är separata entiteter som kommnicerar med varandra genom nätet, där klienten gör förfrågningar till servern och sedan processar servern var förfrågan och sedan returnerna ett svar till klienten.
 
@@ -281,6 +281,6 @@ En webbserver är en appliktation som hanterar HTTP (Hypertext Transfer Protocol
 
 Den andra typen är applikationsservrar som JBoss, Tomcat eller MIIS (Microsoft IIS) designat för applikation eller skript som är på serversidan som ger mer funktionallitet som stödjs för att köra dynmaiska applikationer på webben med språk som Java, .NET eller PHP. En applikationsserver har oftast funktioner för sessionhantering, lastbalansering, databasanslutning med mer.
 
-Webbservrar har en stor roll för att säkerställa säkerheten för applikationer på webben som som kan ge åtkomstkontroll för auktoriserade användare och hantera kryptering med hjälp at SSL/TLS-protokollen för att ge säkra anslutningar och även så webbservrar integreras med funktioner som inbottskydd, brandväggar och andra säkerhetsåtgärder för att skyyta mot attacker eller preventera dom.
+Webbservrar har en stor roll för att säkerställa säkerheten för applikationer på webben som som kan ge åtkomstkontroll för auktoriserade användare och hantera kryptering med hjälp at SSL/TLS-protokollen för att ge säkra anslutningar och även så webbservrar integreras med funktioner som inbrottskydd, brandväggar och andra säkerhetsåtgärder för att skyyta mot attacker eller preventera dom.
 
 Webbservrar är en viktig del av internetinfrastrukturen som gör leverans av webbinnehåll och applikationer till klienten/användaren genom att hantera förfrågningar, handskas med data eller säkerställa säkerhet samt ge skalbarhet som gör dom grundläggande del av vårat webbwekosystem ute på nätet!
