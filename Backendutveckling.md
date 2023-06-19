@@ -241,7 +241,11 @@ Client-Server Architektur betyder att klienten och severen är separata entitete
 
 Uniform Interface gör att APIn följer en uniform interface vilket betyder att vilka methoder för varje operation som kommer att fungera.
 
-Så för att identifera uniformen i REST:APIen måste du följa då ett par olika aspekter för att få fram den. Resurs identiferar för varje resurs i din API måste ha ett sätt att identiferas igenom en URL och där av ger URL:en är slutpunkt/endpoint var resursen, och där av kan man bestämma sig vad man vill göra med resursen genom vilka methoder som resursen kan förstå. för att kart lägga methoderna i den specifika URLen måste du identifera hur klienten kommunicerar med resurserna. För att se om protokollet är HTTP baserad så kan man kolla status koden.
+Så för att identifera uniformen i REST:APIen måste du följa då ett par olika aspekter för att få fram den. Resurs identiferar för varje resurs i din API måste ha ett sätt att identiferas igenom en URL och där av ger URL:en är slutpunkt/endpoint var resursen, och där av kan man bestämma sig vad man vill göra med resursen genom vilka methoder som resursen kan förstå. för att kart lägga methoderna i den specifika URLen måste du identifera hur klienten kommunicerar med resurserna. För att se om protokollet är HTTP baserad så kan man kolla status koden. Då Rest APIet är mellan hand för klienten till servern och sedan till databasen.
+
+<img src="/img/REST.png">
+
+
 ## BE 1.12 XML och andra dataformat
 
 XML som då betyder Xtensible Markup Language är ett vanligt dataformat som representerar data i en form som både människor och maskiner kan läsa. XML är en data typ som har stängnings taggar där varje tag representar ett element och elementen har attribter som kan ha text ekller andra invirade element här är ett exmpel på ett XML dokument.
