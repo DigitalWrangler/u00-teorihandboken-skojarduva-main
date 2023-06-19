@@ -52,7 +52,9 @@ Därav så har Transformer klassen olika namn och factions. Senare implementeras
 
 <img src="img/OOP.starscream.png">
 
+Här är resultat av allt:
 
+<img src="img/OOPstarscreamreslutat.png">
 
 ## BE 1.3 Säkerhet i PHP
 
