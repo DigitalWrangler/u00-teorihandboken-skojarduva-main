@@ -41,16 +41,16 @@ Från PHP5 can du nu skriva PHP kod i en objekt orienterad stil! så vad är OOP
 
 Så i detta exmpelet kommer jag deklarera en klass i som då kallas för "Transformers" och i den klassen kommer jag inkludera properties som då $name och methoder som funktionen set_name som lägger namnet på variablen och en return funktion som visar resultatet!
 
-
-
-Och detta gör att Starscream och Megatron kommer ut i text! i detta exemplet har vi deklarerat namn till dessa transformers i nästa exempel tänkte jag att vi ska deklarara megatrons faction och det gör genom att göra en function som heter set_faction och deklarar vilken då i detta fallet Decepticons 
-
+<img src="img/optimus.prime.png">
 
 
 
-I detta exmpelet får vi ut Megatrons namn som är då Megatron och faction då Decepticons och med denna method "OOP" gör det mycket snabbare och lättare att nesta objekt och då använda dom hur man vill efter!
+I nästa exempel så kommer jag återanvända Transformer klassen som en mall som inkapslar egenskaper och beteendet då jag återanvänder klassen Transformer och dess properties för name och faction och methoder för att få namnet och factionen och att få dom att presentera sig. construct() ör en method som man använder när ett objekt ska skapas i detta fall tar den två argument då name och faction och sedan till delar värdet för både namn och factionen. get_name methoder ger namnet $name och $get_faction gör det samma för $faction. 
+introduce är en method som använder name och faction väret för att presentera var inviduell Transformer med echo.
 
+Därav så har Transformer klassen olika namn och factions. Senare implementeras en if-sats för att se om variablen $starscream har namnet Starscream och om det stämmer triggar det introduce() för honom och sedan gör alla andra Transformers det.
 
+<img src="img/OOP.starscream.png">
 
 
 
@@ -90,11 +90,11 @@ Och det skapar en modell som heter Turtles.php som ser ut så här som ligger i 
 
 När jag skapade modellen med php artisan make:model Turtles --migration, eftersom att jag använde kommandot --migration så generade den även en migrations fil i migration mappen med namnet [timestamp]_create_turtles_table.php som skapar en turtles tabell i databasen med ID och timestamps! som vi ser på bilden nedanför.
 
-<img src="./img/PHP.BASIC2.png">
+<img src="./img/PHP.MVC2.png">
 
 Om du vill migrera fler tabeller till databasen tar du dig hjälp av Schema:: funktionen där du kan definera data typerna som tabellerna ska ta emot. Som i detta exempel.
 
-<img src="./img/PHP.BASIC3.png">
+<img src="./img/PHP.MVC3.png">
 
 Efter detta steg skriver man php artisan migrate för att migrera dom nya tabellerna till databasen.
 
@@ -120,6 +120,9 @@ Många Themes finns tillgängliga gratis men det finns även ett stort utbud som
 Wordpress använder sig av PHP som programmeringsspråk och MySQL eller MariaDB för databashantering.
 Wordpress kan köras på en vanlig persondator med deras egna mjukvara eller via en webb-server.
 
+<img src="/img/wordpress.exempel.png">
+
+I bilden ovan kan man se den användarvänliga UI med en kontrollpanel för webbsidan!
 ## BE 1.6 Heirarkiska databaser
 
 Den Heirarikisk databas var den första typen av databas, den skapades på 60 talet. Denna databashanterings modell som är strukterat som ett som ett träd med grenar där strukturen är från förälder till barn, därav en hierkisk struktur med överordnnader och underordnade relationer.
